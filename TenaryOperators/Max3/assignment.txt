@@ -1,0 +1,12 @@
+1. Finding the Maximum of Three Numbers Using Ternary Operator
+Problem: Write a C program that takes three integers as input and 
+uses a nested ternary operator to determine the largest of the three numbers.
+
+Requirements:
+Implement the function using a nested ternary operator to compare the three numbers.
+The function should return the largest number.
+Ensure that the program works correctly when two or all numbers are equal.
+
+Challenge Points:
+Using the ternary operator efficiently with nested conditions.
+Handling equal numbers without using conditional statements (if-else).

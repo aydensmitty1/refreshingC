@@ -1,0 +1,10 @@
+3. Designing a Queue Using Two Stacks
+Problem: Implement a queue in C using two stacks. The queue should support standard operations such as enqueue, dequeue, and checking if the queue is empty. 
+Optimize the implementation so that each operation runs in amortized O(1) time.
+
+Challenge Points:
+
+Managing two stacks to simulate queue behavior.
+Ensuring that elements are dequeued in the correct order (FIFO) despite using LIFO stacks.
+Handling edge cases such as dequeuing from an empty queue.
+Optimizing the transfer of elements between stacks to achieve amortized O(1) time per operation.

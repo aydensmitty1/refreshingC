@@ -1,0 +1,14 @@
+1. Circular Buffer (Ring Buffer) Implementation
+
+Prompt: Write a program that implements a circular buffer (ring buffer) in C. 
+The buffer should have a fixed size, and your implementation should support the following operations:
+
+buffer_init(size): Initializes the buffer with the given size.
+buffer_write(data): Writes data into the buffer. If the buffer is full, overwrite the oldest data.
+buffer_read(): Reads and removes the oldest data from the buffer. If the buffer is empty, return an error.
+buffer_size(): Returns the current number of elements in the buffer.
+buffer_is_empty() and buffer_is_full(): Check if the buffer is empty or full.
+
+Requirements:
+Make sure to handle edge cases like buffer overflow, underflow, and resizing.
+Demonstrate the functionality by simulating a producer-consumer scenario where one thread writes data and another reads it.

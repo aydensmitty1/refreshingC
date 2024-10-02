@@ -1,0 +1,13 @@
+3. Linked List Node Insertion by Reference
+Problem: Implement a function to insert a new node at the beginning of a singly linked list. The function should take the address of the head pointer and the new value to insert. 
+Allocate memory for the new node and correctly update the list.
+
+Function Prototype:
+void insertAtHead(struct Node **head, int data);
+
+
+Challenge Points:
+
+Passing the head pointer by reference.
+Correctly allocating memory for the new node and managing pointers.
+Ensure there are no memory leaks.

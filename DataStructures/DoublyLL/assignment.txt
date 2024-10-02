@@ -1,0 +1,15 @@
+1. Implementing a Doubly Linked List with Advanced Operations
+Problem: Create a doubly linked list in C that supports the following operations:
+
+Insertion at the beginning, end, and at a specific position.
+Deletion from the beginning, end, and a specific position.
+Reversal of the list.
+Searching for an element and returning its position.
+Displaying the list from both head to tail and tail to head.
+
+Challenge Points:
+
+Managing both prev and next pointers correctly during insertions and deletions.
+Handling edge cases such as empty lists, single-node lists, and invalid positions.
+Efficiently reversing the list by updating pointers without creating a new list.
+Ensuring no memory leaks by properly freeing deleted nodes.

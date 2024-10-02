@@ -1,0 +1,43 @@
+Project Overview:
+The goal is to design and implement a minimalistic file system that can handle file creation, deletion, reading, writing, and directory navigation. 
+You'll simulate how a file system manages files and directories on a disk.
+
+Key Features to Implement:
+Disk Simulation:
+
+Use a large file (e.g., 10MB) to act as your virtual disk. You will manage this file as a disk block device.
+Inodes and Data Blocks:
+
+Create an inode structure to store metadata (size, file type, permissions) and pointers to data blocks.
+Simulate data blocks that store the actual contents of files.
+File Operations:
+
+Implement basic operations like:
+create: Create a new file.
+delete: Delete a file.
+read: Read file content.
+write: Write data to a file.
+ls: List files in a directory.
+Directory Support:
+
+Allow creation of directories and support navigation through directories with commands like cd, mkdir, and rmdir.
+Free Space Management:
+
+Manage free space on the disk by maintaining a bitmap or linked list of free blocks.
+File Allocation Methods:
+
+Implement one file allocation strategy (e.g., contiguous, linked-list, or indexed allocation) to manage how files are stored on the disk.
+Persistence:
+
+Save the state of the file system to the disk file so that the file system remains intact between program runs.
+Error Handling:
+
+Handle cases like file not found, no free space, disk full, etc.
+Tools & Libraries:
+File I/O: fopen(), fwrite(), fread()
+Data Structures: Arrays, linked lists, bitmaps for free space management.
+Binary File Handling: Work with low-level file manipulation to simulate disk blocks.
+Advanced Features (Optional):
+Add support for file permissions (read, write, execute).
+Implement a journaling system to ensure data integrity after a crash (similar to ext4).
+Add support for symbolic and hard links.

@@ -1,0 +1,10 @@
+2. File Buffering with fread and fwrite
+Prompt: Write a program in C that reads from one file and writes to another using buffer techniques. You must use fread and fwrite to perform buffered file I/O operations.
+
+Use a buffer of a specific size (e.g., 1 KB).
+Read from a source file into the buffer, then write the buffer contents to the destination file.
+Ensure that the program handles large files efficiently and avoids memory overuse.
+Requirements:
+
+Implement error checking (e.g., file open failure, read/write failure).
+Compare the execution time of reading/writing with and without buffering by timing both operations.

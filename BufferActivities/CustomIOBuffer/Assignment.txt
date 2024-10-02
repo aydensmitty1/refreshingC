@@ -1,0 +1,10 @@
+3. Buffered Input and Output with Custom Buffer
+Prompt: Create a program that implements a custom input/output buffer for standard input (stdin) and output (stdout). Your buffer should be used to temporarily store data before writing it to output or reading it from input.
+
+Implement buffered_write() that takes a string and stores it in the buffer. Once the buffer reaches a certain size, flush it to stdout.
+Implement buffered_read() to read from stdin into the buffer. If the buffer is not full, it waits for more input until it reaches its size limit.
+
+Requirements:
+The buffer size should be configurable (e.g., default 512 bytes).
+The program should flush remaining data in the buffer when the program finishes.
+Demonstrate the use of the buffered I/O functions by reading a large string and writing it back in chunks.

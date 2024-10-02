@@ -1,0 +1,15 @@
+2. Building a Self-Balancing Binary Search Tree (AVL Tree)
+Problem: Implement an AVL (Adelson-Velsky and Landis) tree in C, which is a self-balancing binary search tree. Your implementation should support the following operations:
+
+Insertion of elements while maintaining the AVL balance property.
+Deletion of elements while maintaining the AVL balance property.
+Searching for elements.
+In-order, Pre-order, and Post-order Traversal of the tree.
+Calculating the Height of the tree.
+
+Challenge Points:
+
+Implementing rotations (left and right) to maintain the AVL balance property after insertions and deletions.
+Correctly updating the height of each node after modifications.
+Handling complex cases where multiple rotations are needed.
+Ensuring that the tree remains balanced after each operation to guarantee O(log n) time complexity for insertions, deletions, and searches.

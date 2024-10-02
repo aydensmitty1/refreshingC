@@ -1,0 +1,12 @@
+1. Dynamic Array Resizing
+Problem: Write a function that dynamically resizes an array. The function should take a pointer to the current array, its current size, and a new size. 
+It should allocate a new array of the new size, copy the elements from the old array to the new array, and free the memory of the old array.
+
+Function Prototype:
+void resizeArray(int **arr, int currentSize, int newSize);
+
+
+Challenge Points:
+
+Managing memory allocation and freeing properly.
+Handling cases where the new size is smaller than the current size.

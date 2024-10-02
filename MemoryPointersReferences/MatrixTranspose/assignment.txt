@@ -1,0 +1,13 @@
+5. Matrix Transposition Using Dynamic Memory
+Problem: Write a function that transposes a matrix dynamically allocated in memory. The matrix is represented as a 2D array (allocated as a single block of memory). 
+The function should return a new transposed matrix and free the memory of the original matrix.
+
+Function Prototype:
+int** transposeMatrix(int **matrix, int rows, int cols);
+
+
+Challenge Points:
+
+Dynamically allocating and deallocating memory for both the original and transposed matrices.
+Properly managing memory access in a 2D array represented by a 1D memory block.
+Freeing the original matrix after transposition.

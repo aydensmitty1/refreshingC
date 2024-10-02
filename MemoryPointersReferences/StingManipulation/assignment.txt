@@ -1,0 +1,10 @@
+2. String Manipulation Using Pointers
+Problem: Write a function that takes a string and two characters as input. The function should replace every occurrence of the first character in the string with the second character. The function should use only pointer arithmetic (no array indexing).
+
+Function Prototype:
+void replaceChar(char *str, char oldChar, char newChar);
+
+
+Challenge Points:
+Using pointer arithmetic instead of indexing.
+Handling special cases like null-terminated strings and empty strings.

@@ -1,0 +1,12 @@
+2. Checking If a Year Is a Leap Year Using Ternary Operator
+Problem: Write a C function that determines whether a given year is a leap year.
+A year is a leap year if it is divisible by 4, but not by 100, unless it is also divisible by 400. 
+Use a ternary operator to perform the leap year check.
+
+Requirements:
+Use the ternary operator to implement the logic for checking leap years.
+The function should return 1 if the year is a leap year, and 0 otherwise.
+
+Challenge Points:
+Properly handling the leap year conditions with a ternary operator, including the special case for years divisible by 400.
+Avoiding the use of if-else statements.

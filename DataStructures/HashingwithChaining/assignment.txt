@@ -1,0 +1,16 @@
+4. Implementing a Hash Table (Dictionary) with Chaining for Collision Resolution
+Problem: Create a hash table (dictionary) in C that maps string keys to integer values. 
+Use chaining (linked lists) to handle collisions. The hash table should support the following operations:
+
+Insertion of key-value pairs.
+Deletion of a key (and its associated value).
+Searching for a value by key.
+Displaying all key-value pairs in the hash table.
+
+Challenge Points:
+
+Designing an effective hash function to minimize collisions.
+Implementing chaining correctly using linked lists within each bucket.
+Managing dynamic memory for keys and entries to avoid memory leaks.
+Handling cases such as inserting duplicate keys, deleting non-existent keys, and searching for keys not present in the table.
+Ensuring efficient insertion, deletion, and search operations despite collisions.

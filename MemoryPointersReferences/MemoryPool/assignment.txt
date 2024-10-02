@@ -1,0 +1,14 @@
+4. Memory Pool Allocation
+Problem: Write a memory allocator that divides a large block of memory into smaller chunks of fixed size. Implement functions to allocate and free memory from the memory pool. 
+Ensure that memory is reused efficiently.
+
+Function Prototypes:
+void* allocateMemory();
+void freeMemory(void* ptr);
+
+
+Challenge Points:
+
+Implementing efficient memory management.
+Tracking free and used blocks of memory.
+Handling edge cases like out-of-memory conditions.
