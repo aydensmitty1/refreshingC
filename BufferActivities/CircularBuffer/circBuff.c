@@ -14,7 +14,7 @@ typedef struct {
 CircularBuffer* buffer_init(int size) {
     // Allocate memory for the circular buffer structure
     CircularBuffer *cbuff = (CircularBuffer *)malloc(sizeof(CircularBuffer));
-    cbuff->buffer = malloc(size * sizeof(int));
+    cbuff->buffer = malloc(size * sizeof(char));
     memset(cbuff->buffer, 0, sizeof(cbuff->buffer));
     cbuff->head = 0;
     cbuff->tail = 0;
